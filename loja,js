@@ -9,12 +9,15 @@ class carrinho{
       contructor(){
        this.produtos = []
       }
-
- adicionarProduto{
+     adicionarProduto{
      this.produtos.push(produto)
    }  
-
-}
+   listarProdutos () {
+    return  this.produtos
+   }
+   calcularTotal(){
+    retur this.produtos.reduce((total,p))== total = p.preco ,0 )
+  }
 
 class pagamento{
 
