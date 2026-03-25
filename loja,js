@@ -1,0 +1,30 @@
+class produto {
+      contructor(nome,preco){
+        this.nome = nome
+        this.preco = preco
+      }
+}
+
+class carrinho{
+      contructor(){
+       this.produtos = []
+      }
+
+ adicionarProduto{
+     this.produtos.push(produto)
+   }  
+
+}
+
+class pagamento{
+
+}
+
+class pedido{
+
+}
+
+class cliente{
+
+}
+
